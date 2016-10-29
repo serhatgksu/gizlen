@@ -7,8 +7,8 @@ Gizlen servisinin çalışması için sisteminizde TOR servislerinin kurulu ve �
 1 - apt-get install tor  
 
 # Gizlen Kurulum
-1 - touch gizlen <br>
-2 - nano gizlen <br>
+1 - git clone https://github.com/serhatgksu/gizlen.git <br>
+2 - OR wget https://github.com/serhatgksu/gizlen/archive/master.zip && unzip master.zip && cd (FİLENAME) <br>
 3 - chmod 777 gizlen <br>
 4 - mv gizlen /usr/bin/gizlen <br>
 5 - whereis gizlen (Yüklenip yüklenmediğini kontrol ediyoruz. Eğer çıkan sonuç "/usr/bin/gizlen" değilse bir sorun var demektir.) <br>
